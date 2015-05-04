@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class='container'>
+        <nav class='navbar navbar-inverse navbar-fixed-top'>
+            <div class='container'>
+                <div class='navbar-header'>
+                    <a class='navbar-brand'>Question and Answer demo</a>
+                </div>
+            </div>
+        </nav>
+        <div style="height:80px;"></div>
+        
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-md-10" id="info"></div>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-1"></div>
+            <div class="col-md-10" id="result">
+                <canvas class="canvas" height="250" width="400"></canvas>
+            </div>
+        </div>
+        <!--pre id="result">
+        <pre-->
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!--reference http://caldwell.github.io/renderjson/ -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/client.js"></script>
+<script src="js/Chart.js"></script>
+</html>
